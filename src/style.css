@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.divImage {
+  width: 962px;
+  height: 595px;
+  display: flex;
+  flex-wrap: wrap;
+}
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+}
+img {
+  width: 100%;
+}
+
+.div2 {
+  position: relative;
+  width: 240px;
+  height: 350px;
+}
+.text {
+  position: absolute;
+  bottom: 80px;
+  font-size: large;
+  font-weight: 900;
+  color: blue;
+  display: flex;
+  flex-direction: column;
+  left: 50px;
+  text-align: center;
+}
+h3 {
+}
+
+.inputdiv {
+  display: flex;
+  padding-top: 150px;
+  flex-direction: column;
+  width: 600px;
+  gap: 30px;
+}
+input {
+  height: 50px;
+  padding: 0 10px;
+  border-radius: 25px;
+}
+.inputdiv button {
+  width: 150px;
+  height: 50px;
+  border-radius: 15px;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
